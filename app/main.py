@@ -32,4 +32,4 @@ app.include_router(vote.router)
 # The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 @app.get('/')
 def root():
-    return {'message': 'boraaa!!!!'}
+    return {'message': 'Helo World!!!!'}
